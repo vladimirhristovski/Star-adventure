@@ -17,3 +17,13 @@ C:\Users\vlade\Desktop\PROEKT\Star Adventure\Star Adventure\obj\Debug\Star Adven
 C:\Users\vlade\Desktop\PROEKT\Star Adventure\Star Adventure\obj\Debug\Star Adventure.csproj.CoreCompileInputs.cache
 C:\Users\vlade\Desktop\PROEKT\Star Adventure\Star Adventure\obj\Debug\Star Adventure.exe
 C:\Users\vlade\Desktop\PROEKT\Star Adventure\Star Adventure\obj\Debug\Star Adventure.pdb
+C:\Users\Com\Desktop\vizuelno lab\Star-adventure\Star Adventure\Star Adventure\bin\Debug\Star Adventure.exe.config
+C:\Users\Com\Desktop\vizuelno lab\Star-adventure\Star Adventure\Star Adventure\bin\Debug\Star Adventure.exe
+C:\Users\Com\Desktop\vizuelno lab\Star-adventure\Star Adventure\Star Adventure\bin\Debug\Star Adventure.pdb
+C:\Users\Com\Desktop\vizuelno lab\Star-adventure\Star Adventure\Star Adventure\obj\Debug\Star Adventure.csproj.AssemblyReference.cache
+C:\Users\Com\Desktop\vizuelno lab\Star-adventure\Star Adventure\Star Adventure\obj\Debug\Star_Adventure.Form1.resources
+C:\Users\Com\Desktop\vizuelno lab\Star-adventure\Star Adventure\Star Adventure\obj\Debug\Star_Adventure.Properties.Resources.resources
+C:\Users\Com\Desktop\vizuelno lab\Star-adventure\Star Adventure\Star Adventure\obj\Debug\Star Adventure.csproj.GenerateResource.cache
+C:\Users\Com\Desktop\vizuelno lab\Star-adventure\Star Adventure\Star Adventure\obj\Debug\Star Adventure.csproj.CoreCompileInputs.cache
+C:\Users\Com\Desktop\vizuelno lab\Star-adventure\Star Adventure\Star Adventure\obj\Debug\Star Adventure.exe
+C:\Users\Com\Desktop\vizuelno lab\Star-adventure\Star Adventure\Star Adventure\obj\Debug\Star Adventure.pdb

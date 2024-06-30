@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vlade\\Desktop\\PROEKT\\Star Adventure\\",
+  "WorkspaceRootPath": "C:\\Users\\Com\\Desktop\\vizuelno lab\\Star-adventure\\Star Adventure\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EAB763D1-FB84-4FA6-9BE6-45AA041075BF}|Star Adventure\\Star Adventure.csproj|c:\\users\\vlade\\desktop\\proekt\\star adventure\\star adventure\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{EAB763D1-FB84-4FA6-9BE6-45AA041075BF}|Star Adventure\\Star Adventure.csproj|c:\\users\\com\\desktop\\vizuelno lab\\star-adventure\\star adventure\\star adventure\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EAB763D1-FB84-4FA6-9BE6-45AA041075BF}|Star Adventure\\Star Adventure.csproj|solutionrelative:star adventure\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAB763D1-FB84-4FA6-9BE6-45AA041075BF}|Star Adventure\\Star Adventure.csproj|c:\\users\\vlade\\desktop\\proekt\\star adventure\\star adventure\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EAB763D1-FB84-4FA6-9BE6-45AA041075BF}|Star Adventure\\Star Adventure.csproj|C:\\Users\\Com\\Desktop\\vizuelno lab\\Star-adventure\\Star Adventure\\star adventure\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAB763D1-FB84-4FA6-9BE6-45AA041075BF}|Star Adventure\\Star Adventure.csproj|solutionrelative:star adventure\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\vlade\\Desktop\\PROEKT\\Star Adventure\\Star Adventure\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Com\\Desktop\\vizuelno lab\\Star-adventure\\Star Adventure\\Star Adventure\\Form1.cs",
               "RelativeDocumentMoniker": "Star Adventure\\Form1.cs",
-              "ToolTip": "C:\\Users\\vlade\\Desktop\\PROEKT\\Star Adventure\\Star Adventure\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\Com\\Desktop\\vizuelno lab\\Star-adventure\\Star Adventure\\Star Adventure\\Form1.cs [Design]",
               "RelativeToolTip": "Star Adventure\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-29T04:41:10.039Z",
@@ -37,11 +37,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\vlade\\Desktop\\PROEKT\\Star Adventure\\Star Adventure\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Com\\Desktop\\vizuelno lab\\Star-adventure\\Star Adventure\\Star Adventure\\Form1.cs",
               "RelativeDocumentMoniker": "Star Adventure\\Form1.cs",
-              "ToolTip": "C:\\Users\\vlade\\Desktop\\PROEKT\\Star Adventure\\Star Adventure\\Form1.cs",
+              "ToolTip": "C:\\Users\\Com\\Desktop\\vizuelno lab\\Star-adventure\\Star Adventure\\Star Adventure\\Form1.cs",
               "RelativeToolTip": "Star Adventure\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFwAAAANAAAA",
+              "ViewState": "AQIAAIwAAAAAAAAAAAAowKIAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-29T05:01:48.974Z",
               "EditorCaption": ""
