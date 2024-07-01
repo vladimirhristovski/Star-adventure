@@ -51,6 +51,16 @@
             this.asteroid2 = new System.Windows.Forms.PictureBox();
             this.asteroid4 = new System.Windows.Forms.PictureBox();
             this.asteroid3 = new System.Windows.Forms.PictureBox();
+            this.lblGameOver = new System.Windows.Forms.Label();
+            this.pointstar1 = new System.Windows.Forms.PictureBox();
+            this.pointstar2 = new System.Windows.Forms.PictureBox();
+            this.pointstar3 = new System.Windows.Forms.PictureBox();
+            this.pointstar4 = new System.Windows.Forms.PictureBox();
+            this.pointstar5 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lblDescription = new System.Windows.Forms.Label();
+            this.btnPlay = new System.Windows.Forms.Button();
+            this.btnRetry = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -71,6 +81,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.asteroid2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.asteroid4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.asteroid3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pointstar1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pointstar2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pointstar3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pointstar4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pointstar5)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -201,7 +216,6 @@
             // 
             // timer1
             // 
-            this.timer1.Enabled = true;
             this.timer1.Interval = 10;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
@@ -270,12 +284,144 @@
             this.asteroid3.TabStop = false;
             this.asteroid3.Visible = false;
             // 
+            // lblGameOver
+            // 
+            this.lblGameOver.AutoSize = true;
+            this.lblGameOver.BackColor = System.Drawing.Color.Red;
+            this.lblGameOver.Font = new System.Drawing.Font("Impact", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGameOver.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblGameOver.Location = new System.Drawing.Point(102, 190);
+            this.lblGameOver.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblGameOver.Name = "lblGameOver";
+            this.lblGameOver.Size = new System.Drawing.Size(240, 37);
+            this.lblGameOver.TabIndex = 22;
+            this.lblGameOver.Text = "Over Is The Game";
+            // 
+            // pointstar1
+            // 
+            this.pointstar1.Image = ((System.Drawing.Image)(resources.GetObject("pointstar1.Image")));
+            this.pointstar1.Location = new System.Drawing.Point(100, 55);
+            this.pointstar1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pointstar1.Name = "pointstar1";
+            this.pointstar1.Size = new System.Drawing.Size(36, 33);
+            this.pointstar1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pointstar1.TabIndex = 23;
+            this.pointstar1.TabStop = false;
+            this.pointstar1.Visible = false;
+            // 
+            // pointstar2
+            // 
+            this.pointstar2.Image = ((System.Drawing.Image)(resources.GetObject("pointstar2.Image")));
+            this.pointstar2.Location = new System.Drawing.Point(100, 131);
+            this.pointstar2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pointstar2.Name = "pointstar2";
+            this.pointstar2.Size = new System.Drawing.Size(36, 33);
+            this.pointstar2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pointstar2.TabIndex = 24;
+            this.pointstar2.TabStop = false;
+            this.pointstar2.Visible = false;
+            // 
+            // pointstar3
+            // 
+            this.pointstar3.Image = ((System.Drawing.Image)(resources.GetObject("pointstar3.Image")));
+            this.pointstar3.Location = new System.Drawing.Point(100, 229);
+            this.pointstar3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pointstar3.Name = "pointstar3";
+            this.pointstar3.Size = new System.Drawing.Size(36, 33);
+            this.pointstar3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pointstar3.TabIndex = 25;
+            this.pointstar3.TabStop = false;
+            this.pointstar3.Visible = false;
+            // 
+            // pointstar4
+            // 
+            this.pointstar4.Image = ((System.Drawing.Image)(resources.GetObject("pointstar4.Image")));
+            this.pointstar4.Location = new System.Drawing.Point(100, 324);
+            this.pointstar4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pointstar4.Name = "pointstar4";
+            this.pointstar4.Size = new System.Drawing.Size(36, 33);
+            this.pointstar4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pointstar4.TabIndex = 26;
+            this.pointstar4.TabStop = false;
+            this.pointstar4.Visible = false;
+            // 
+            // pointstar5
+            // 
+            this.pointstar5.Image = ((System.Drawing.Image)(resources.GetObject("pointstar5.Image")));
+            this.pointstar5.Location = new System.Drawing.Point(100, 427);
+            this.pointstar5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pointstar5.Name = "pointstar5";
+            this.pointstar5.Size = new System.Drawing.Size(36, 33);
+            this.pointstar5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pointstar5.TabIndex = 27;
+            this.pointstar5.TabStop = false;
+            this.pointstar5.Visible = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(290, 15);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(52, 17);
+            this.label1.TabIndex = 28;
+            this.label1.Text = "label1";
+            // 
+            // lblDescription
+            // 
+            this.lblDescription.AutoSize = true;
+            this.lblDescription.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblDescription.Font = new System.Drawing.Font("Impact", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDescription.ForeColor = System.Drawing.Color.Gold;
+            this.lblDescription.Location = new System.Drawing.Point(65, 32);
+            this.lblDescription.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblDescription.MaximumSize = new System.Drawing.Size(300, 325);
+            this.lblDescription.Name = "lblDescription";
+            this.lblDescription.Size = new System.Drawing.Size(297, 324);
+            this.lblDescription.TabIndex = 29;
+            this.lblDescription.Text = resources.GetString("lblDescription.Text");
+            this.lblDescription.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnPlay
+            // 
+            this.btnPlay.Location = new System.Drawing.Point(111, 367);
+            this.btnPlay.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnPlay.Name = "btnPlay";
+            this.btnPlay.Size = new System.Drawing.Size(220, 41);
+            this.btnPlay.TabIndex = 30;
+            this.btnPlay.Text = "Play";
+            this.btnPlay.UseVisualStyleBackColor = true;
+            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
+            // 
+            // btnRetry
+            // 
+            this.btnRetry.Location = new System.Drawing.Point(111, 234);
+            this.btnRetry.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRetry.Name = "btnRetry";
+            this.btnRetry.Size = new System.Drawing.Size(220, 41);
+            this.btnRetry.TabIndex = 31;
+            this.btnRetry.Text = "Retry";
+            this.btnRetry.UseVisualStyleBackColor = true;
+            this.btnRetry.Click += new System.EventHandler(this.btnRetry_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(434, 511);
+            this.Controls.Add(this.btnRetry);
+            this.Controls.Add(this.btnPlay);
+            this.Controls.Add(this.lblDescription);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pointstar5);
+            this.Controls.Add(this.pointstar4);
+            this.Controls.Add(this.pointstar3);
+            this.Controls.Add(this.pointstar2);
+            this.Controls.Add(this.pointstar1);
+            this.Controls.Add(this.lblGameOver);
             this.Controls.Add(this.asteroid3);
             this.Controls.Add(this.asteroid4);
             this.Controls.Add(this.asteroid2);
@@ -319,7 +465,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.asteroid2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.asteroid4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.asteroid3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pointstar1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pointstar2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pointstar3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pointstar4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pointstar5)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -346,6 +498,16 @@
         private System.Windows.Forms.PictureBox asteroid2;
         private System.Windows.Forms.PictureBox asteroid4;
         private System.Windows.Forms.PictureBox asteroid3;
+        private System.Windows.Forms.Label lblGameOver;
+        private System.Windows.Forms.PictureBox pointstar1;
+        private System.Windows.Forms.PictureBox pointstar2;
+        private System.Windows.Forms.PictureBox pointstar3;
+        private System.Windows.Forms.PictureBox pointstar4;
+        private System.Windows.Forms.PictureBox pointstar5;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblDescription;
+        private System.Windows.Forms.Button btnPlay;
+        private System.Windows.Forms.Button btnRetry;
     }
 }
 
