@@ -20,7 +20,7 @@
 ### Опис на решението
 
 
-### Опис на функцијата за проверка на тоа дали два објекти од типот PictureBox се наоѓаат еден врз друг:
+### Опис на функцијата ```public PictureBox checkIntersection(PictureBox e)```
 ```C#
 public PictureBox checkIntersection(PictureBox e)
         {
