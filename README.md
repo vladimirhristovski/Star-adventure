@@ -21,6 +21,7 @@
 
 
 ### Опис на функцијата за проверка на тоа дали два објекти од типот PictureBox се наоѓаат еден врз друг:
+```C#
 public PictureBox checkIntersection(PictureBox e)
         {
             List<PictureBox> list = Everything.Where(v => v != e).ToList();
@@ -33,6 +34,7 @@ public PictureBox checkIntersection(PictureBox e)
             }
             return e;
         }
+```
         
 Со оваа функција ние проверуваме дали некој објект од класата PictureBox, односно астероидите и ѕвездичките се наоѓа еден врз друг.
 Првично се креира нова листа list во која од листата Everything, каде се наоѓаат сите астероиди и ѕвездички, се изоставува објектот од класата PictureBox кој што го праќаме како аргумент на функцијата, за да не дојдеме во бесконечен циклус.
