@@ -28,6 +28,7 @@ namespace Star_Adventure
         public Form1()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
             lblGameOver.Visible = false;
             this.AsteroidCount = 1;
             btnRetry.Visible = false;
@@ -244,7 +245,7 @@ namespace Star_Adventure
                 }
             }
 
-            label1.Text = Points.ToString() + " " + GameSpeed.ToString();
+            label1.Text = "Score: " + Points.ToString() + "   " + GameSpeed.ToString() + "km/s";
 
             if (Points % 3 == 0 && Points != 0 && !IncreaseSpeed)
             {
@@ -367,7 +368,7 @@ namespace Star_Adventure
         private void btnViewHighscore_Click(object sender, EventArgs e)
         {
             HighscoresForms hf= new HighscoresForms(highScores);
-            hf.Show();
+            hf.ShowDialog();
         }
     }
 }

@@ -38,9 +38,9 @@
             this.listBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 20;
-            this.listBox1.Location = new System.Drawing.Point(23, 28);
+            this.listBox1.Location = new System.Drawing.Point(100, 28);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(364, 344);
+            this.listBox1.Size = new System.Drawing.Size(181, 344);
             this.listBox1.TabIndex = 0;
             // 
             // HighscoresForms

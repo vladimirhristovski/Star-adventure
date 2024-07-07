@@ -3,19 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\Com\\Desktop\\vizuelno lab\\Star-adventure\\Star Adventure\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EAB763D1-FB84-4FA6-9BE6-45AA041075BF}|Star Adventure\\Star Adventure.csproj|c:\\users\\com\\desktop\\vizuelno lab\\star-adventure\\star adventure\\star adventure\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAB763D1-FB84-4FA6-9BE6-45AA041075BF}|Star Adventure\\Star Adventure.csproj|solutionrelative:star adventure\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EAB763D1-FB84-4FA6-9BE6-45AA041075BF}|Star Adventure\\Star Adventure.csproj|C:\\Users\\Com\\Desktop\\vizuelno lab\\Star-adventure\\Star Adventure\\star adventure\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EAB763D1-FB84-4FA6-9BE6-45AA041075BF}|Star Adventure\\Star Adventure.csproj|solutionrelative:star adventure\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAB763D1-FB84-4FA6-9BE6-45AA041075BF}|Star Adventure\\Star Adventure.csproj|c:\\users\\com\\desktop\\vizuelno lab\\star-adventure\\star adventure\\star adventure\\highscoresforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{EAB763D1-FB84-4FA6-9BE6-45AA041075BF}|Star Adventure\\Star Adventure.csproj|C:\\Users\\Com\\Desktop\\vizuelno lab\\Star-adventure\\Star Adventure\\star adventure\\highscoresforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EAB763D1-FB84-4FA6-9BE6-45AA041075BF}|Star Adventure\\Star Adventure.csproj|solutionrelative:star adventure\\highscoresforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAB763D1-FB84-4FA6-9BE6-45AA041075BF}|Star Adventure\\Star Adventure.csproj|c:\\users\\com\\desktop\\vizuelno lab\\star-adventure\\star adventure\\star adventure\\highscoresforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EAB763D1-FB84-4FA6-9BE6-45AA041075BF}|Star Adventure\\Star Adventure.csproj|c:\\users\\com\\desktop\\vizuelno lab\\star-adventure\\star adventure\\star adventure\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAB763D1-FB84-4FA6-9BE6-45AA041075BF}|Star Adventure\\Star Adventure.csproj|solutionrelative:star adventure\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAB763D1-FB84-4FA6-9BE6-45AA041075BF}|Star Adventure\\Star Adventure.csproj|C:\\Users\\Com\\Desktop\\vizuelno lab\\Star-adventure\\Star Adventure\\star adventure\\highscoresforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAB763D1-FB84-4FA6-9BE6-45AA041075BF}|Star Adventure\\Star Adventure.csproj|solutionrelative:star adventure\\highscoresforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Com\\Desktop\\vizuelno lab\\Star-adventure\\Star Adventure\\Star Adventure\\Form1.cs",
               "RelativeDocumentMoniker": "Star Adventure\\Form1.cs",
@@ -43,20 +43,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HighscoresForms.cs",
-              "DocumentMoniker": "C:\\Users\\Com\\Desktop\\vizuelno lab\\Star-adventure\\Star Adventure\\Star Adventure\\HighscoresForms.cs",
-              "RelativeDocumentMoniker": "Star Adventure\\HighscoresForms.cs",
-              "ToolTip": "C:\\Users\\Com\\Desktop\\vizuelno lab\\Star-adventure\\Star Adventure\\Star Adventure\\HighscoresForms.cs",
-              "RelativeToolTip": "Star Adventure\\HighscoresForms.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBQAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T10:28:37.575Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "HighscoresForms.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Com\\Desktop\\vizuelno lab\\Star-adventure\\Star Adventure\\Star Adventure\\HighscoresForms.cs",
               "RelativeDocumentMoniker": "Star Adventure\\HighscoresForms.cs",
@@ -68,13 +55,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "HighscoresForms.cs",
+              "DocumentMoniker": "C:\\Users\\Com\\Desktop\\vizuelno lab\\Star-adventure\\Star Adventure\\Star Adventure\\HighscoresForms.cs",
+              "RelativeDocumentMoniker": "Star Adventure\\HighscoresForms.cs",
+              "ToolTip": "C:\\Users\\Com\\Desktop\\vizuelno lab\\Star-adventure\\Star Adventure\\Star Adventure\\HighscoresForms.cs",
+              "RelativeToolTip": "Star Adventure\\HighscoresForms.cs",
+              "ViewState": "AQIAAAIAAAAAmZmZmZkVwBgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T10:28:37.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Com\\Desktop\\vizuelno lab\\Star-adventure\\Star Adventure\\Star Adventure\\Form1.cs",
               "RelativeDocumentMoniker": "Star Adventure\\Form1.cs",
               "ToolTip": "C:\\Users\\Com\\Desktop\\vizuelno lab\\Star-adventure\\Star Adventure\\Star Adventure\\Form1.cs",
               "RelativeToolTip": "Star Adventure\\Form1.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAAAFUAAAAtAAAA",
+              "ViewState": "AQIAAGIBAAAA0czMzEwfwHIBAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-29T05:01:48.974Z",
               "EditorCaption": ""

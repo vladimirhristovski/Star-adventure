@@ -14,15 +14,26 @@ namespace Star_Adventure
     {
         public HighscoresForms(List<int> scores)
         {
-            InitializeComponent();
 
-            foreach (var score in scores.OrderByDescending(s => s))
+            InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+
+            foreach (int item in scores.OrderByDescending(s => s))
             {
-                listBox1.Items.Add(score);
+                if (!listBox1.Items.Contains(item))
+                {
+                    listBox1.Items.Add(item);
+                }
+                
             }
 
+            if (listBox1.Items.Count > 0)
+            {
+                int highestScore = (int)listBox1.Items[0];
+                listBox1.Items[0] = $"{highestScore} Highest Score";
+            }
+           
         }
-
-       
+ 
     }
 }
