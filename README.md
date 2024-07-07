@@ -44,3 +44,19 @@ public PictureBox checkIntersection(PictureBox e)
 
 
 ### Screenshots
+
+   1. Старт на играта
+   ![start](https://github.com/vladimirhristovski/Star-adventure/assets/139167699/a37819f7-0f22-4a1e-83b1-95609cbf9603)
+   2. Играта во тек
+   ![mid-play](https://github.com/vladimirhristovski/Star-adventure/assets/139167699/75667572-c5da-49b1-80b9-54ea6263c83c)
+   3. Крај на играта
+   ![gameover](https://github.com/vladimirhristovski/Star-adventure/assets/139167699/1448f566-8d10-473a-9168-3a1d8263a336)
+   4. Приказ на табела со највисоки поени
+   ![highscore-table](https://github.com/vladimirhristovski/Star-adventure/assets/139167699/f547032e-fc1f-4e8a-8f28-7012d3f52d3c)
+   
+   
+   
+      
+
+
+
