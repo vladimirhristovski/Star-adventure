@@ -17,6 +17,7 @@ namespace Star_Adventure
         public List<PictureBox> Stars = new List<PictureBox>();
         public List<PictureBox> Asteroids = new List<PictureBox>();
         public List<PictureBox> Everything = new List<PictureBox>();
+        public List<int> highScores = new List<int>();
 
         public int GameSpeed { get; set; }
         public int Points { get; set; }
@@ -30,6 +31,7 @@ namespace Star_Adventure
             lblGameOver.Visible = false;
             this.AsteroidCount = 1;
             btnRetry.Visible = false;
+            btnViewHighscore.Visible = false;
             IncreaseSpeed = false;
             this.DoubleBuffered = true;
             this.FormBorderStyle = FormBorderStyle.Fixed3D;
@@ -81,6 +83,7 @@ namespace Star_Adventure
             lblDescription.Visible = false;
             btnPlay.Visible = false;
             btnRetry.Visible = false;
+            btnViewHighscore.Visible = false;
             AsteroidCount = (int)Points / 5;
             PointStarsCount = (int)Points / 2;
 
@@ -272,6 +275,11 @@ namespace Star_Adventure
                     lblGameOver.BringToFront();
                     lblGameOver.Visible = true;
                     btnRetry.Visible = true;
+                    btnViewHighscore.Visible = true;
+                    btnRetry.BringToFront();
+                    btnViewHighscore.BringToFront();
+
+                    highScores.Add(Points);
                 }
 
             }
@@ -354,6 +362,12 @@ namespace Star_Adventure
         private void btnRetry_Click(object sender, EventArgs e)
         {
             StartRace();
+        }
+
+        private void btnViewHighscore_Click(object sender, EventArgs e)
+        {
+            HighscoresForms hf= new HighscoresForms(highScores);
+            hf.Show();
         }
     }
 }

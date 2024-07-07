@@ -27,3 +27,4 @@ C:\Users\Com\Desktop\vizuelno lab\Star-adventure\Star Adventure\Star Adventure\o
 C:\Users\Com\Desktop\vizuelno lab\Star-adventure\Star Adventure\Star Adventure\obj\Debug\Star Adventure.csproj.CoreCompileInputs.cache
 C:\Users\Com\Desktop\vizuelno lab\Star-adventure\Star Adventure\Star Adventure\obj\Debug\Star Adventure.exe
 C:\Users\Com\Desktop\vizuelno lab\Star-adventure\Star Adventure\Star Adventure\obj\Debug\Star Adventure.pdb
+C:\Users\Com\Desktop\vizuelno lab\Star-adventure\Star Adventure\Star Adventure\obj\Debug\Star_Adventure.HighscoresForms.resources
